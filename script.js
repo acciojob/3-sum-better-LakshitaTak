@@ -23,9 +23,12 @@
    }
    return sum
  }
- threeSum(arr, target)
- console.log(sum)
+ // threeSum(arr, target)
+ // console.log(sum)
 
  //threeSum(arr, target)
- // module.exports = threeSum;
+ 
  //console.log(sum, Math.min(...sum))
+
+
+module.exports = threeSum;
