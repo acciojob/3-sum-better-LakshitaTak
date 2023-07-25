@@ -14,7 +14,7 @@
 
      // 1. sum = -4-1+1 = -4
      //2. sum = -1+1+2 = 2
-     console.log(sortedArr[i], sortedArr[i + 1], sortedArr[i + 2])
+     //console.log(sortedArr[i], sortedArr[i + 1], sortedArr[i + 2])
      let smallestSum = sortedArr[i] + sortedArr[i + 1] + sortedArr[i + 2] - target
      if (Math.abs(sum) > Math.abs(smallestSum)) {
        sum = smallestSum
