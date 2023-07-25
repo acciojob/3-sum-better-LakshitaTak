@@ -1,5 +1,5 @@
- // let arr = [-1, 2, 1, -4]
- // let target = 1
+  // let arr = [-1, 2, 1, -4]
+  // let target = 1
  //let sum = [];
  let sum = 99999;
 
@@ -15,17 +15,16 @@
      // 1. sum = -4-1+1 = -4
      //2. sum = -1+1+2 = 2
      console.log(sortedArr[i], sortedArr[i + 1], sortedArr[i + 2])
-     let smallestSum = Math.abs(sortedArr[i] + sortedArr[i + 1] + sortedArr[i + 2] - target)
-     if (sum > smallestSum) {
+     let smallestSum = sortedArr[i] + sortedArr[i + 1] + sortedArr[i + 2] - target
+     if (Math.abs(sum) > Math.abs(smallestSum)) {
        sum = smallestSum
      }
      //sum.push(Math.abs(arr[i] + arr[i + 1] + arr[i + 2]- target))
    }
-   return sum
+   return (sum+target)
  }
- // threeSum(arr, target)
- // console.log(sum)
-
+ //console.log(threeSum(arr, target))
+ 
  //threeSum(arr, target)
  
  //console.log(sum, Math.min(...sum))
